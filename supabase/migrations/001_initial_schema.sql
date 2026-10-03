@@ -1,3 +1,5 @@
+SET search_path = public, extensions;
+
 -- ============================================================
 -- Idempotent migration — safe to run multiple times.
 -- Uses IF NOT EXISTS for tables/indexes and DROP IF EXISTS
